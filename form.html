@@ -4,12 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        label{
+            width: 100px;
+            display: inline-block;
+        }
+        form{
+            background-color: aqua;
+        }
+    </style>
 </head>
 <body>
-   User id: <input type="text" placeholder="Enter user id"><br>
-   Password<input type="text" placeholder="Enter your Password"><br>
-    <input type="button" value="hi"><br>
-    <input type="submit" value="abes" name="submit1"><br>
-    <input type="reset" name="hello"><br>
+    <form action="index32.html" method="post">
+   <label>User id:</label> <input type="text" maxlength="3" placeholder="Enter user id"><br>
+   <label>password</label><input type="text"   autofocus placeholder="Enter your Password"><br>
+    
+    <input type="submit" value="submit" name="submit">
+    <input type="reset"  name="hello"><br>
+    Contact Us:<input type="text"   name="contact">
+    Email:<input type="text"   name="email" required>
+    <h6> Subject</h6>
+    Subject:<input type="checkbox" name="OS" value="os">HH<br>
+    <input type="checkbox" name="hobby" value="reading"> Reading<br>
+    <input type="checkbox" name="hobby" value="music"> Music<br>
+    <input type="checkbox" name="hobby" value="sports"> Sports<br>
+    <input type="checkbox" name="hobby" value="travel"> Traveling<br><br>
+    Semester:<select>
+        <option>-semester-</option>
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+        <option>4</option>
+         <option>5</option>
+          <option>6</option>
+    </select>
+    </form>
 </body>
 </html>
